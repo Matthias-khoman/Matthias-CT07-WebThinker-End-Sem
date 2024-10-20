@@ -6,6 +6,7 @@
   <link href="script/bootstrap.css" rel="stylesheet"/>
   <script src="script/jquery.min.js"></script>
   <script src="script/bootstrap.js"></script>
+  <script src="script/account.js"></script>
 </head>
 <body>
   <article class="container my-3 mb-4">
@@ -13,6 +14,10 @@
       <div id="username-container" class="form-floating mb-3">
         <input type="text" class="form-control" id="username" placeholder="Username">
         <label for="username">Username</label>
+      </div>
+      <div id="password-container" class="form-floating mb-3">
+        <input type="password" class="form-control" id="password" placeholder="Type in your password">
+        <label for="password">Password</label>
       </div>
       <div>
         <button onclick="validate" class="btn btn-primary">Register</button>
