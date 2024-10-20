@@ -1,5 +1,5 @@
-const validate = () =>{
+let validate = () =>{
     let username = $('#username').val()
     let password = $('#password').val()
-    console.log(username , password)
+    return username , password
 }
